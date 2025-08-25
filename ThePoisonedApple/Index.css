@@ -6,3 +6,29 @@
 h1 {
     text-align: center;
 }
+
+.dessertpictures img{
+    height: 5em;
+    width: 7em;
+}
+
+/* .whitegirl {
+    text-align: center;
+} */
+
+.end span, h2, p {
+    text-align: center;
+}
+
+.whitegirl {
+    height: 9em;
+    width: 14em;
+    border-radius: 50%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
+}
