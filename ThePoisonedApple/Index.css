@@ -16,6 +16,13 @@ h1 {
     text-align: center;
 } */
 
+.testimony {
+    font-size: 2em;
+  
+    padding-left: 43%;
+    padding-right: 43%;
+}
+
 .end span, h2, p {
     text-align: center;
 }
