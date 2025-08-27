@@ -5,6 +5,11 @@
 
 h1 {
     text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
 }
 
 .dessertpictures img{
@@ -17,14 +22,19 @@ h1 {
 } */
 
 .testimony {
-    font-size: 2em;
+    font-size: 1em;
   
     padding-left: 43%;
     padding-right: 43%;
 }
 
-.end span, h2, p {
+
+.end span, h2, p, .customersay {
     text-align: center;
+}
+
+.customersay {
+    font-size: 2em;
 }
 
 .whitegirl {
@@ -39,3 +49,5 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+/* Potentially use this for numbers: overflow-wrap: break-word */
