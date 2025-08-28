@@ -3,9 +3,17 @@
     background-color: black;
 }
 
+.topbar, span {
+    justify-content: flex-end;
+}
+
 h1 {
     text-align: center;
     font-size: 3em;
+}
+
+.secone, .secthree, .end{
+    background-color: gray;
 }
 
 h2 {
@@ -20,6 +28,7 @@ h2 {
 /* .whitegirl {
     text-align: center;
 } */
+
 
 .testimony {
     font-size: 1em;
