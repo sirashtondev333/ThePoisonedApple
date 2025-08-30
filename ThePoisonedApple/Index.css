@@ -1,10 +1,13 @@
 * {
     color: aliceblue;
     background-color: black;
+    box-sizing: border-box;
 }
 
 .topbar, span {
+    display: flex;
     justify-content: flex-end;
+    padding-right: 1em;
 }
 
 h1 {
@@ -12,7 +15,7 @@ h1 {
     font-size: 3em;
 }
 
-.secone, .secthree, .end{
+.setwo, .secfour{
     background-color: gray;
 }
 
@@ -29,6 +32,21 @@ h2 {
     text-align: center;
 } */
 
+* .secfourstart {
+    display: block;
+    text-align: center;
+}
+
+/* Why is padding in .secfourstart not working?? Figure it out.  */
+
+.orderonline {
+    padding-top: 1em;
+}
+
+.phone {
+    font-size: 7em;
+    padding-bottom: 6em;
+}
 
 .testimony {
     font-size: 1em;
@@ -39,8 +57,12 @@ h2 {
 
 
 .end span, h2, p, .customersay {
+    /* 
     text-align: center;
+ */
+ display: block;
 }
+
 
 .customersay {
     font-size: 2em;
@@ -52,6 +74,7 @@ h2 {
     border-radius: 50%;
     padding-left: 40%;
     padding-right: 40%;
+    border: solid red 1px;
 }
 
 .portrait {
@@ -60,3 +83,4 @@ h2 {
 }
 
 /* Potentially use this for numbers: overflow-wrap: break-word */
+
