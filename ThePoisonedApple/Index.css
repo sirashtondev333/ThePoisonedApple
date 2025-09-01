@@ -15,6 +15,11 @@ h1 {
     font-size: 3em;
 }
 
+.socialmedia {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .setwo, .secfour{
     background-color: gray;
 }
@@ -32,15 +37,17 @@ h2 {
     text-align: center;
 } */
 
-* .secfourstart {
-    display: block;
-    text-align: center;
-}
-
 /* Why is padding in .secfourstart not working?? Figure it out.  */
 
 .orderonline {
     padding-top: 1em;
+    text-align: center;
+    border: solid blue 2px;
+}
+
+.dessertpictures {
+display: flex;
+justify-content: center;
 }
 
 .phone {
@@ -56,11 +63,9 @@ h2 {
 }
 
 
-.end span, h2, p, .customersay {
-    /* 
+.end span, h2, p, .customersay { 
     text-align: center;
- */
- display: block;
+    display: block;
 }
 
 
@@ -84,3 +89,35 @@ h2 {
 
 /* Potentially use this for numbers: overflow-wrap: break-word */
 
+.search input[type=text] {
+padding: 6px;
+border: none;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 12px;
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
