@@ -1,9 +1,12 @@
 * {
-    color: aliceblue;
-    background-color: black;
+    color: #d4adcf;
     box-sizing: border-box;
     /* margin: 0;
      padding: 0; Manually tweaking each piece's margin to how you want so it isn't affected by any influences, like by a browser is a preference Vish has to give him complete control.*/
+}
+
+body {
+    background-color: #101824;
 }
 
 .max {
@@ -27,13 +30,18 @@ header {
 
 .topbar a{
     display: block;
-    color: aliceblue;
+    color: #d4adcf;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
+.order {
+    color: #fe9c02;
+}
+
+/* figure out why it won't just change the color for this, why does that other rule take priority? */
 
 .searchone input {
     background-color: aliceblue;
@@ -58,7 +66,7 @@ h1 {
 }
 
 * .sectwo, * .secfour{
-    background-color: gray;
+    background-color: #5e2c49;
 }
 
 h2 {
@@ -85,7 +93,8 @@ flex-direction: row;
 .orderonline {
     padding-top: 1rem;
     text-align: center;
-    border: solid blue 2px;
+    color: #fe9c02;
+    /* Merryweather voice: MAKE IT BLUE! */
 }
 
 .dessertpictures {
@@ -93,18 +102,18 @@ display: flex;
 justify-content: center;
 }
 
-.secfour h2 {
-    outline: 1px solid green;
-}
-
 .phone {
     font-size: 7rem;
-    outline: 1px solid yellow;
     margin: 0;
     padding: 0;
 }
 
 /* Something was and probably still is adding margin and padding to the class .phone. Vish isn't sure what but making the margin and padding 0 seems to have helped. This was challenging. */
+
+.cookieone {
+    height: 10rem;
+    width: 10rem;
+}
 
 .testimony {
     font-size: 1rem;
@@ -127,7 +136,7 @@ justify-content: center;
     display: block;
     width: 25%;
     margin: 0 auto 1.5rem;
-    border: red solid 1px;
+    border: solid 1px #6794b3;
 }
 
 .portrait {
