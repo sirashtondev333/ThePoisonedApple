@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "vampirebite";
+    src:url(/Fonts/Vampire\ Bite.ttf);
+}
+
+    @font-face {
+    font-family: "twistedhalloween";
+    src:url(/Fonts/TwistedHalloween_PERSONAL_USE_ONLY.otf);
+    }
+
+    @font-face {
+    font-family: "atraxgoth";
+    src:url(/Fonts/AntraxjaGoth1938-3WO8.ttf);
+    }
+
+* {
+    color: #d4adcf;
+    box-sizing: border-box;
+    /* margin: 0;
+     padding: 0; Manually tweaking each piece's margin to how you want so it isn't affected by any influences, like by a browser is a preference Vish has to give him complete control.*/
+}
+
+body {
+    background-color: #101824;
+}
+
+.max {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Adding pictures to the sides to act as like a decorative banner and making it an exception to this rule could get a little complicated 
+    according to Vish. Will think on this. */
+}
+
+
+header {
+    display: grid;
+    /* justify-content: flex-end; */
+}
+
+.topbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.topbar a{
+    font-family: 'Amatic SC';
+    display: block;
+    color: #d4adcf;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.order {
+    color: #fe9c02;
+}
+
+/* figure out why it won't just change the color for this, why does that other rule take priority? */
+
+.searchone input {
+    background-color: aliceblue;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 1rem;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2.5rem;
+}
+
+h4 {
+    font-family: 'Amatic SC';
+    text-align: center;
+} 
+
+.socialmedia {
+    display: flex;
+    margin-left: 1rem;
+    gap: 1rem;
+    /* LOOK INTO GAPS. THEY HELP WITH GOOD SPACING. */
+}
+
+* .sectwo, * .secfour{
+    background-color: #5e2c49;
+    font-family: 'Amatic SC';
+}
+
+h2 {
+    font-size: 2.5rem;
+    /* font-family: 'vampirebite'; */
+    font-family: 'Amatic SC';
+}
+
+.desserts {
+    font-family: 'Amatic SC';
+display: flex;
+justify-content: flex-start;
+flex-direction: column-reverse;
+
+}
+
+.desserts span {
+ text-align: center;
+}
+
+.dessertpictures img{
+    height: 5rem;
+    width: 7rem;
+}
+
+.orderonline {
+    padding-top: 1rem;
+    text-align: center;
+    color: #fe9c02;
+    /* Merryweather voice: MAKE IT BLUE! */
+}
+
+.dessertpictures {
+display: flex;
+justify-content: center;
+}
+
+.phone {
+    font-size: 7rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Something was and probably still is adding margin and padding to the class .phone. Vish isn't sure what but making the margin and padding 0 seems to have helped. This was challenging. */
+
+.cookieone {
+    height: 10rem;
+    width: 10rem;
+}
+
+.testimony {
+    font-size: 1rem;
+  
+    padding-left: 43%;
+    padding-right: 43%;
+}
+
+
+.end span, h2, p, .customersay { 
+    text-align: center;
+    display: block;
+}
+
+.customersay {
+    font-size: 2em;
+}
+
+.whitegirl {
+    display: block;
+    width: 25%;
+    margin: 0 auto 1.5rem;
+    border: solid 1px #6794b3;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
+    /* color: #a1e4f5;*/
+    color: #5bcded;
+}
+
+/* Potentially use this for numbers: overflow-wrap: break-word */
+
+
+  
+  /* Border takes up space, outline doesn't. Outline is just on top of stuff, Vish encourages you to use it during layout. 
+  Says it's like they're in the same space but different reality. Same syntax as a border too. */

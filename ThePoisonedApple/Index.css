@@ -68,16 +68,28 @@ header {
     font-size: 17px;
 }
 
+.beginning {
+    background-image: linear-gradient(135deg, rgba(103, 148, 179, .1), rgba(103, 148, 179, .2), rgba(103, 148, 179, .1)),
+    url("/Images/cake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+    background-position: 40% center;
+    /* Vish says put linear gradient first over picture if you want a picture with one or else the image will just sit on top of it. */
+}
+
 h1 {
     font-family: 'Amatic SC';
     text-align: center;
     font-size: 3rem;
     padding-top: 2.5rem;
+    text-shadow: 1.25px 1.25px 5px white;
 }
 
 h4 {
     font-family: 'Amatic SC';
     text-align: center;
+    text-shadow: 1.25px 1.25px 5px white;
 } 
 
 .socialmedia {
@@ -92,8 +104,16 @@ h4 {
     font-family: 'Amatic SC';
 }
 
+.sectwo {
+    font-family: 'Open Sans';
+    font-size: .9rem;
+    padding: 1rem 2rem;
+    text-shadow: 1px 1px black;
+}
+
 h2 {
     font-size: 2.5rem;
+    text-shadow: 1.5px 1.5px black;
     /* font-family: 'vampirebite'; */
     font-family: 'Amatic SC';
 }
@@ -139,6 +159,13 @@ justify-content: center;
     height: 10rem;
     width: 10rem;
 }
+
+.cake {
+    height: 10rem;
+    width: 10rem;
+    border: solid red 1px;
+}
+
 
 .testimony {
     font-size: 1rem;
