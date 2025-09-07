@@ -13,3 +13,7 @@ Make Testimonials small and not white (unless your primary text color is no long
 Also add a food picture below opening hours, and if not there within the section so it's not bland. Could be a good place for cake.
 Maybe figure out a background image that bleeds on the sides but is also part of the banner for the top, make/tweak your own image?
 CONSIDER REVERSING COLORS SO THAT WAY YOU DON'T HAVE TO CHANGE THE BACKGROUND FOR HARLEY HAWTHORNE???*
+
+ADD OPACITY TO BACKGROUND LINEAR IMAGES USING THIS THING: https://www.youtube.com/watch?v=5gDsy-J7ICk
+How to add image behind another without like being the background: https://codingtechroom.com/question/-overlay-image-html-css
+Consider also saving an image with the lineart and the color you like for that section added in, but would prefer less code/information.

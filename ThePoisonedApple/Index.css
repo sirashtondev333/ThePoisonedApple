@@ -44,6 +44,7 @@ header {
 }
 
 .topbar a{
+    font-family: 'Amatic SC';
     display: block;
     color: #d4adcf;
     text-align: center;
@@ -68,11 +69,16 @@ header {
 }
 
 h1 {
-    font-family: 'atraxgoth';
+    font-family: 'Amatic SC';
     text-align: center;
     font-size: 3rem;
     padding-top: 2.5rem;
 }
+
+h4 {
+    font-family: 'Amatic SC';
+    text-align: center;
+} 
 
 .socialmedia {
     display: flex;
@@ -83,18 +89,20 @@ h1 {
 
 * .sectwo, * .secfour{
     background-color: #5e2c49;
+    font-family: 'Amatic SC';
 }
 
 h2 {
     font-size: 2.5rem;
-    font-family: 'vampirebite';
+    /* font-family: 'vampirebite'; */
+    font-family: 'Amatic SC';
 }
 
 .desserts {
-text-decoration: underline;
+    font-family: 'Amatic SC';
 display: flex;
-justify-content: center;
-flex-direction: row;
+justify-content: flex-start;
+flex-direction: column-reverse;
 
 }
 
