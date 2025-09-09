@@ -1,12 +1,3 @@
-@font-face {
-    font-family: "vampirebite";
-    src:url(/Fonts/Vampire\ Bite.ttf);
-}
-
-    @font-face {
-    font-family: "twistedhalloween";
-    src:url(/Fonts/TwistedHalloween_PERSONAL_USE_ONLY.otf);
-    }
 
     @font-face {
     font-family: "atraxgoth";
@@ -81,18 +72,21 @@ header {
 h1 {
     font-family: 'Amatic SC';
     text-align: center;
-    font-size: 3rem;
+    font-size: 4.5rem;
     padding-top: 2.5rem;
-    text-shadow: 1.25px 1.25px 5px white;
+    text-shadow: 1.25px 1.25px 5px black;
 }
 
 h4 {
     font-family: 'Amatic SC';
+    font-size: 3.2rem;
     text-align: center;
     text-shadow: 1.25px 1.25px 5px white;
 } 
 
 .socialmedia {
+    font-family: 'Lato';
+    font-size: .75rem;
     display: flex;
     margin-left: 1rem;
     gap: 1rem;
@@ -100,13 +94,14 @@ h4 {
 }
 
 * .sectwo, * .secfour{
+    padding-top: 4rem;
     background-color: #5e2c49;
     font-family: 'Amatic SC';
+    text-shadow: 1px 1px black;
 }
 
 .sectwo {
-    font-family: 'Open Sans';
-    font-size: .9rem;
+    font-family: 'Lato';
     padding: 1rem 2rem;
     text-shadow: 1px 1px black;
 }
@@ -114,46 +109,45 @@ h4 {
 h2 {
     font-size: 2.5rem;
     text-shadow: 1.5px 1.5px black;
-    /* font-family: 'vampirebite'; */
     font-family: 'Amatic SC';
 }
 
 .desserts {
-    font-family: 'Amatic SC';
-display: flex;
-justify-content: flex-start;
-flex-direction: column-reverse;
-
-}
-
-.desserts span {
- text-align: center;
+     font-family: 'Amatic SC';
+     display: flex;
+     justify-content: center;
+     gap: 1rem; 
 }
 
 .dessertpictures img{
     height: 5rem;
     width: 7rem;
+    display: flex;
+    justify-content: center;
 }
 
-.orderonline {
-    padding-top: 1rem;
+
+.secfour {
     text-align: center;
-    color: #fe9c02;
-    /* Merryweather voice: MAKE IT BLUE! */
-}
-
-.dessertpictures {
-display: flex;
-justify-content: center;
 }
 
 .phone {
     font-size: 7rem;
+    color: #fe9c02;
     margin: 0;
     padding: 0;
 }
 
 /* Something was and probably still is adding margin and padding to the class .phone. Vish isn't sure what but making the margin and padding 0 seems to have helped. This was challenging. */
+
+
+.orderonline {
+    font-size: 'Lato';
+    padding-top: 1rem;
+    text-align: center;
+    color: #fe9c02;
+    /* Merryweather voice: MAKE IT BLUE! */
+}
 
 .cookieone {
     height: 10rem;
@@ -163,25 +157,27 @@ justify-content: center;
 .cake {
     height: 10rem;
     width: 10rem;
-    border: solid red 1px;
 }
 
 
 .testimony {
     font-size: 1rem;
-  
     padding-left: 43%;
     padding-right: 43%;
 }
 
 
-.end span, h2, p, .customersay { 
+.end span, h2, .customersay { 
     text-align: center;
     display: block;
 }
 
 .customersay {
     font-size: 2em;
+}
+
+.end span, h3 {
+    font-family: 'Amatic SC';
 }
 
 .whitegirl {
@@ -196,6 +192,15 @@ justify-content: center;
     justify-content: center;
     /* color: #a1e4f5;*/
     color: #5bcded;
+}
+
+.end p, .veryend {
+    font-family: 'Lato';
+    text-shadow: 1px 1px black;
+}
+
+.veryend {
+    font-size: .5rem;
 }
 
 /* Potentially use this for numbers: overflow-wrap: break-word */
