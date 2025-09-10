@@ -28,10 +28,16 @@ header {
     /* justify-content: flex-end; */
 }
 
-.topbar {
+/* .topbar {
     display: flex;
     justify-content: flex-end;
     padding-right: 1rem;
+} */
+
+.topbar {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
 }
 
 .topbar a{
@@ -41,7 +47,7 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 
 .order {
@@ -84,12 +90,16 @@ h4 {
     text-shadow: 1.25px 1.25px 5px white;
 } 
 
-.socialmedia {
+ * .socialmedia {
+    color: #6794b3;
     font-family: 'Lato';
-    font-size: .75rem;
+    font-size: .85rem;
     display: flex;
-    margin-left: 1rem;
-    gap: 1rem;
+    /* margin-left: 1rem; */
+    margin-right: 1rem;
+    gap: 1rem; */
+
+
     /* LOOK INTO GAPS. THEY HELP WITH GOOD SPACING. */
 }
 
@@ -126,20 +136,42 @@ h2 {
     justify-content: center;
 }
 
-
+/* 
 .secfour {
     text-align: center;
-}
+} */
 
 .phone {
     font-size: 7rem;
-    color: #fe9c02;
+    color:#6794b3;
     margin: 0;
     padding: 0;
 }
 
+.hours {
+    font-size: 1.5rem;
+}
+
+.numbers {
+    color: #6794b3;
+}
+
 /* Something was and probably still is adding margin and padding to the class .phone. Vish isn't sure what but making the margin and padding 0 seems to have helped. This was challenging. */
 
+
+.cookieone {
+    height: 10rem;
+    width: 10rem;
+}
+/* 
+.cateringsec img{ */
+
+.cake {
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    width: 60rem;
+}
 
 .orderonline {
     font-size: 'Lato';
@@ -149,19 +181,10 @@ h2 {
     /* Merryweather voice: MAKE IT BLUE! */
 }
 
-.cookieone {
-    height: 10rem;
-    width: 10rem;
-}
-
-.cake {
-    height: 10rem;
-    width: 10rem;
-}
-
 
 .testimony {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding-top: 7rem;
     padding-left: 43%;
     padding-right: 43%;
 }
@@ -173,7 +196,7 @@ h2 {
 }
 
 .customersay {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .end span, h3 {
@@ -191,7 +214,8 @@ h2 {
     display: flex;
     justify-content: center;
     /* color: #a1e4f5;*/
-    color: #5bcded;
+    font-size: 1.5rem;
+    color:#6fabd3
 }
 
 .end p, .veryend {
