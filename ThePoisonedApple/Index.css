@@ -37,7 +37,7 @@ header {
 .topbar {
     display: flex;
     justify-content: flex-start;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
 }
 
 .topbar a{
@@ -58,10 +58,12 @@ header {
 
 .searchone input {
     background-color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
     padding: 6px;
     border: none;
-    margin-top: 8px;
-    margin-left: 1rem;
+    /* margin-top: 8px;
+    margin-left: 1rem; */
     font-size: 17px;
 }
 
@@ -78,8 +80,8 @@ header {
 h1 {
     font-family: 'Amatic SC';
     text-align: center;
-    font-size: 4.5rem;
-    padding-top: 2.5rem;
+    font-size: 6rem;
+    padding-top: 3rem;
     text-shadow: 1.25px 1.25px 5px black;
 }
 
@@ -88,6 +90,7 @@ h4 {
     font-size: 3.2rem;
     text-align: center;
     text-shadow: 1.25px 1.25px 5px white;
+    padding-bottom: 9rem;
 } 
 
  * .socialmedia {
@@ -122,6 +125,12 @@ h2 {
     font-family: 'Amatic SC';
 }
 
+.orderonlinenow {
+    text-align: center;
+    color: #fe9c02;
+
+}
+
 .desserts {
      font-family: 'Amatic SC';
      display: flex;
@@ -142,6 +151,7 @@ h2 {
 } */
 
 .phone {
+    text-align: center;
     font-size: 7rem;
     color:#6794b3;
     margin: 0;
@@ -149,10 +159,16 @@ h2 {
 }
 
 .hours {
+    text-align: center;
     font-size: 1.5rem;
 }
 
 .numbers {
+    text-align: center;
+    color: #6794b3;
+}
+
+.numbersone {
     color: #6794b3;
 }
 
@@ -167,24 +183,26 @@ h2 {
 .cateringsec img{ */
 
 .cake {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    position: relative;
     height: 30rem;
     width: 60rem;
+    z-index: 1;
 }
 
 .orderonline {
+    position: relative;
     font-size: 'Lato';
-    padding-top: 1rem;
-    text-align: center;
+    padding-bottom: 20rem;  
+    text-align: center; 
     color: #fe9c02;
-    /* Merryweather voice: MAKE IT BLUE! */
+    z-index: 2;
 }
 
-.cateringsec button {
-    background color: #fe9c02;
-    color: #101824;
-    
+.cateringsec {
+    position: relative;
+    text-align: center;
 }
 
 
@@ -201,6 +219,14 @@ h2 {
     display: block;
 }
 
+.end {
+    background-color: #5e2c49;
+    background-image: linear-gradient(to bottom, rgba(,#d4adcf, #d4adcf, 0.1), (#d4adcf,#d4adcf, #d4adcf, 0.) 100%), url('/Images/cakeslice.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
 .customersay {
     font-size: 3em;
 }
@@ -209,9 +235,13 @@ h2 {
     font-family: 'Amatic SC';
 }
 
-.cinnaroll {
-
+.cakeslice {
+    height: 40rem;
+    width: 40rem;
+    opacity: .2;
+    z-index: -1;
 }
+
 
 
 .whitegirl {
