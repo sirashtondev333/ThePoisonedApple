@@ -30,7 +30,7 @@ header {
 .topbar {
     display: flex;
     justify-content: center;
-    /* padding-left: 1rem; */
+    padding-right: 6rem;
 }
 
 
@@ -40,10 +40,11 @@ header {
 
 .topbar a{
     font-family: 'Amatic SC';
-    display: block;
+    display: flex;
+    justify-content: flex-start;
     color: #d4adcf;
     padding: 14px 16px;
-    padding-left: 45px;
+    padding-left: 50px;
     text-decoration: none;
     font-size: 1.8rem;
 }
@@ -53,8 +54,14 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 6px;
+    margin-left: 1rem;
     border: none;
     font-size: 17px;
+}
+
+.searchone {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* .fa-solid fa-crystal-ball {
@@ -112,6 +119,7 @@ h4 {
     font-family: 'Lato';
     font-size: .85rem;
     display: flex;
+    justify-content: flex-end;
     /* margin-left: 1rem; */
     margin-right: 1rem;
     gap: 1rem; 
@@ -152,15 +160,63 @@ h2 {
      gap: 1rem; 
 }
 
-/* .dessertpictures img{
-    height: 5rem;
-    width: 7rem;
-} */
+.cupcakes {
+    height: 10rem;
+    width: 9rem;
+}
 
-/* 
-.secfour {
-    text-align: center;
-} */
+.bread {
+    height: 12rem;
+    width: 12rem;
+}
+
+.apples {
+    height: 15rem;
+}
+
+.ripcookies {
+    height: 11rem;
+}
+
+.fingers {
+    height: 10rem;
+    width: 7rem;
+}
+
+.croissant {
+    height: 12rem;
+    width: 9rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pie {
+    height: 11rem;
+    width: 10rem;
+}
+
+.latte {
+    height: 12rem;
+    width: 9rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.smore {
+    height: 12rem;
+    width: 9rem;
+}
+
+.cheesecake {
+    height: 12rem;
+    width: 9rem;
+    
+}
+
+.ghostlatte {
+   height: 12rem;
+    width: 9rem; 
+}
 
 .phone {
     text-align: center;
