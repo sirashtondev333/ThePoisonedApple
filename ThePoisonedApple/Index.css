@@ -259,7 +259,6 @@ Technically rems are okay but pixels would be a hard no. */
 }
 
 .end {
-    outline: 1px solid green;
     background-color: #5e2c49;
     padding: 4rem 0;
     /* background-image: linear-gradient(to bottom, rgba(224, 210, 223, 0.1), rgba(212, 173, 207, 0.3)), url(/Images/cakeslice.svg);   */
