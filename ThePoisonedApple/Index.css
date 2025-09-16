@@ -78,6 +78,10 @@ header {
     /* Vish says put linear gradient first over picture if you want a picture with one or else the image will just sit on top of it. */
 }
 
+.beginning * {
+    outline: 1px solid red;
+}
+
 h1 {
     font-family: 'Amatic SC';
     text-align: center;
@@ -91,13 +95,8 @@ h4 {
     font-size: 3.2rem;
     text-align: center;
     text-shadow: 1.25px 1.25px 5px white;
-    margin-bottom: 9rem;
+    margin-bottom: 6rem;
 } 
-
-.orderbutton {
-    text-align: center;
-    padding-bottom: 12rem; 
-}
 
 .orderbutton {
     padding-top: .7rem;
@@ -111,7 +110,9 @@ h4 {
     font-weight: 800;
     font-size: 2rem;
     border-radius: 10%;
-    position: absolute;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
 
  * .socialmedia {
@@ -210,7 +211,6 @@ h2 {
 .cheesecake {
     height: 12rem;
     width: 9rem;
-    
 }
 
 .ghostlatte {
@@ -232,7 +232,8 @@ h2 {
 }
 
 .numbers {
-    text-align: center;
+    padding-left:
+    padding-right:
     color: #6794b3;
 }
 
