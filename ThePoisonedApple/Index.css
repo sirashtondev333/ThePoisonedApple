@@ -78,10 +78,6 @@ header {
     /* Vish says put linear gradient first over picture if you want a picture with one or else the image will just sit on top of it. */
 }
 
-.beginning * {
-    outline: 1px solid red;
-}
-
 h1 {
     font-family: 'Amatic SC';
     text-align: center;
@@ -95,7 +91,7 @@ h4 {
     font-size: 3.2rem;
     text-align: center;
     text-shadow: 1.25px 1.25px 5px white;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 } 
 
 .orderbutton {
@@ -129,8 +125,8 @@ h4 {
 
     /* LOOK INTO GAPS. THEY HELP WITH GOOD SPACING. */
 
-* .sectwo, * .secfour{
-    padding-top: 4rem;
+.sectwo, .secfour{
+    padding: 4rem 0;
     background-color: #5e2c49;
     font-family: 'Amatic SC';
     text-shadow: 1px 1px black;
@@ -138,7 +134,7 @@ h4 {
 
 .sectwo {
     font-family: 'Lato';
-    padding: 6rem 3rem;
+    padding: 7rem 3rem 10rem;
     text-shadow: 1px 1px black;
       background-image: url(/Images/croisSANT.svg);
     background-size: 60%;
@@ -152,7 +148,7 @@ h4 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-shadow: 1.5px 1.5px black;
     font-family: 'Amatic SC';
 }
@@ -167,7 +163,8 @@ h2 {
      font-family: 'Amatic SC';
      display: flex;
      justify-content: center;
-     gap: 1rem; 
+     gap: 1.2rem; 
+     font-size: 1.75rem;
 }
 
 .dessertpictures {
@@ -253,9 +250,6 @@ Technically rems are okay but pixels would be a hard no. */
 .testimony {
     color:#6794b3;
     font-size: 1.5rem;
-    padding-top: 7rem;
-    padding-left: 43%;
-    padding-right: 43%;
 }
 
 
@@ -267,6 +261,7 @@ Technically rems are okay but pixels would be a hard no. */
 .end {
     outline: 1px solid green;
     background-color: #5e2c49;
+    padding: 4rem 0;
     /* background-image: linear-gradient(to bottom, rgba(224, 210, 223, 0.1), rgba(212, 173, 207, 0.3)), url(/Images/cakeslice.svg);   */
     background-image: url(/Images/cakeslice.svg);
     background-size: 60%;
@@ -276,6 +271,11 @@ Technically rems are okay but pixels would be a hard no. */
 
 /* review how linear gradients work and margins with points and shorthand. */
 /* ALT Z WRAPS TEXT 8D */
+
+.end p {
+    max-width: 70ch;
+    margin: 2rem auto 0;
+}
 
 .customersay {
     font-size: 3em;
