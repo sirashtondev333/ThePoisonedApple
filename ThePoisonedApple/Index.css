@@ -161,62 +161,31 @@ h2 {
      gap: 1rem; 
 }
 
-.cupcakes {
-    height: 10rem;
-    width: 9rem;
-}
-
-.bread {
-    height: 12rem;
-    width: 12rem;
-}
-
-.apples {
-    height: 15rem;
-}
-
-.ripcookies {
-    height: 11rem;
-}
-
-.fingers {
-    height: 10rem;
-    width: 7rem;
-}
-
-.croissant {
-    height: 12rem;
-    width: 9rem;
+.dessertpictures {
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    margin: 2rem auto 4rem;
+    max-width: 75%;
 }
 
-.pie {
-    height: 11rem;
-    width: 10rem;
-}
-
-.latte {
-    height: 12rem;
-    width: 9rem;
+.dessertpictures > div {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: .25rem;
+    width: 33.3%;
 }
 
-.smore {
-    height: 12rem;
-    width: 9rem;
+.dessertpictures img {
+    width: 100%;
+    border:#d4adcf solid 2px;
 }
 
-.cheesecake {
-    height: 12rem;
-    width: 9rem;
-}
-
-.ghostlatte {
-   height: 12rem;
-    width: 9rem; 
-}
+/* Play with placement, do not add inidivual heights and widths
+if you do, use percentages for responsiveness, not set rems. 
+can still have some semblance of color flow!!
+Technically rems are okay but pixels would be a hard no. */
 
 .phone {
     text-align: center;
@@ -241,39 +210,36 @@ h2 {
     color: #6794b3;
 }
 
+/* Add padding to bottom of hours section to create that gap. */
+
 /* Something was and probably still is adding margin and padding to the class .phone. Vish isn't sure what but making the margin and padding 0 seems to have helped. This was challenging. */
 
-
-.cookieone {
-    height: 10rem;
-    width: 10rem;
-}
-/* 
-.cateringsec img{ */
-
 .cake {
-    /* display: flex; */
-    /* justify-content: center; */
+    /* display: flex;
+    justify-content: center; */
     position: relative;
     height: 30rem;
     width: 60rem;
     z-index: -1;
 }
 
+/* control + / gets rid of comments. */
+
 .orderonline {
-    position: absolute;
     font-size: 4rem;  
-    display: flex;
-    justify-content: center;
     color: #fe9c02;
-    z-index: 1;
 }
 
-/* .cateringsec {
-    position: relative;
+.cateringsec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Images/ouijacake.jpg);
+    outline: solid 1px blue;
+    padding: 6rem 0;
     text-align: center;
-} */
-
+}
+    
 
 .testimony {
     color:#6794b3;
@@ -290,12 +256,16 @@ h2 {
 }
 
 .end {
+    outline: 1px solid green;
     background-color: #5e2c49;
-    background-image: linear-gradient(to bottom, rgba(,#d4adcf, #d4adcf, 0.1), (#d4adcf,#d4adcf, #d4adcf, 0.) 100%), url('/Images/cakeslice.png');
-    background-attachment: fixed;
+    /* background-image: linear-gradient(to bottom, rgba(#d4adcf, #d4adcf, 0.1), (#d4adcf,#d4adcf, #d4adcf, 0.9) 100%), url(/Images/cakeslice.png); */
+    background-image: url(/Images/cakeslice.png);
+    background-size: cover;
     background-position: center;
     background-repeat:no-repeat; 
 }
+
+/* review how linear gradients work and margins with points and shorthand. */
 
 .customersay {
     font-size: 3em;
