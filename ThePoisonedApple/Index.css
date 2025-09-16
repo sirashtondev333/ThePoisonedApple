@@ -138,8 +138,17 @@ h4 {
 
 .sectwo {
     font-family: 'Lato';
-    padding: 1rem 2rem;
+    padding: 6rem 3rem;
     text-shadow: 1px 1px black;
+      background-image: url(/Images/croisSANT.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat:no-repeat; 
+}
+
+.sectwo p {
+    max-width: 70ch;
+    margin: 0 auto;
 }
 
 h2 {
@@ -258,29 +267,31 @@ Technically rems are okay but pixels would be a hard no. */
 .end {
     outline: 1px solid green;
     background-color: #5e2c49;
-    /* background-image: linear-gradient(to bottom, rgba(#d4adcf, #d4adcf, 0.1), (#d4adcf,#d4adcf, #d4adcf, 0.9) 100%), url(/Images/cakeslice.png); */
-    background-image: url(/Images/cakeslice.png);
-    background-size: cover;
+    /* background-image: linear-gradient(to bottom, rgba(224, 210, 223, 0.1), rgba(212, 173, 207, 0.3)), url(/Images/cakeslice.svg);   */
+    background-image: url(/Images/cakeslice.svg);
+    background-size: 60%;
     background-position: center;
     background-repeat:no-repeat; 
 }
 
 /* review how linear gradients work and margins with points and shorthand. */
+/* ALT Z WRAPS TEXT 8D */
 
 .customersay {
     font-size: 3em;
+    /* color:rgba(244, 194, 238, 0.1); */
 }
 
 .end span, h3 {
     font-family: 'Amatic SC';
 }
 
-.cakeslice {
+/* .cakeslice {
     height: 40rem;
     width: 40rem;
     opacity: .2;
     z-index: -1;
-}
+} */
 
 .whitegirl {
     display: block;
