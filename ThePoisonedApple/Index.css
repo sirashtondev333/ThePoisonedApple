@@ -51,6 +51,7 @@ header {
 
 .searchone input {
     background-color: aliceblue;
+    font-family: "Lato";
     display: flex;
     justify-content: flex-end;
     padding: 6px;
@@ -193,6 +194,13 @@ if you do, use percentages for responsiveness, not set rems.
 can still have some semblance of color flow!!
 Technically rems are okay but pixels would be a hard no. */
 
+.secfour {
+    background-image: url(/Images/Muffen.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat:no-repeat; 
+}
+
 .phone {
     text-align: center;
     font-size: 7rem;
@@ -203,17 +211,37 @@ Technically rems are okay but pixels would be a hard no. */
 
 .hours {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.callnow {
+    margin-bottom: 0.5rem;
 }
 
 .numbers {
-    padding-left:
-    padding-right:
     color: #6794b3;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.hourstotal {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.hourstotal p {
+    margin-bottom: 0.5rem;
+}
+
 
 .numbersone {
     color: #6794b3;
+    text-align: center;
+    margin-top: 0;
 }
 
 /* Add padding to bottom of hours section to create that gap. */
@@ -241,15 +269,15 @@ Technically rems are okay but pixels would be a hard no. */
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(/Images/ouijacake.jpg);
-    outline: solid 1px blue;
     padding: 6rem 0;
     text-align: center;
 }
     
-
+/* Vish says light with a text shadow would look good for catering section text you still need to finish. */
 .testimony {
     color:#6794b3;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 
@@ -277,7 +305,7 @@ Technically rems are okay but pixels would be a hard no. */
 }
 
 .customersay {
-    font-size: 3em;
+    font-size: 5rem;
     /* color:rgba(244, 194, 238, 0.1); */
 }
 
@@ -296,15 +324,19 @@ Technically rems are okay but pixels would be a hard no. */
     display: block;
     width: 23%;
     margin: 0 auto 1.5rem;
-    border: solid 1px #d4adcf;
+    border: solid 1px #d4adcf; 
     border-radius: 50%;
 }
+/* consider changing white girl's border color. */
 
 .portrait {
     display: flex;
     justify-content: center;
     /* color: #a1e4f5;*/
+    text-shadow: 1.25px 1.25px black;
     font-size: 1.5rem;
+    font-weight: 600;
+
     color:#6fabd3
 }
 
