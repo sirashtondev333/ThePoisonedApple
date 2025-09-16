@@ -340,15 +340,33 @@ Technically rems are okay but pixels would be a hard no. */
     color:#6fabd3
 }
 
-.end p, .veryend {
+.end p, footer {
     font-family: 'Lato';
     text-shadow: 1px 1px black;
 }
 
-.veryend {
+footer {
     font-size: .5rem;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 /* Potentially use this for numbers: overflow-wrap: break-word */
   /* Border takes up space, outline doesn't. Outline is just on top of stuff, Vish encourages you to use it during layout. 
   Says it's like they're in the same space but different reality. Same syntax as a border too. */
+
+
+  /* ASHTON. LOOK AT THIS.
+  Add a box shadow to your first button, and then to your next one.
+  Add text shadow to your catering text. Look at the way you rounded the edges
+  and added padding, go for default size for the second button. Consider making a class my guy.
+  Consider a gradient border for your photos, look at how the blue looks.
+  Use a div he says.
+  Add hover effects to the selection. Vish says it takes 2 minutes. target class, do :hover and
+  then tell it what to do, like font size, color, whatever. 
+  Add it to top buttons too, especially menu and order now.
+  have an orange hover effect on top buttons, border on order now as a call to action rather than
+  a hover effect but the border can change colors. Social media will need hover effects too.
+  /* Add hover to images. Transform tells it to grow a little bit. Make telephone a little bigger.
+  Can add tombstone lighting effects, like shadow on the bottom section which could also look nice
+  in other sections. */ 
