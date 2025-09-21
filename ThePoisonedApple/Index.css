@@ -36,6 +36,7 @@ header {
 
 #order {
     color: #fe9c02;
+    text-decoration: underline solid 1.5px #fe9c02;;
 }
 
 .topbar a{
@@ -51,6 +52,10 @@ header {
 
 .topbar a:hover {
     text-decoration: underline 1.25px solid #fe9c02;
+}
+
+#order:hover {
+ text-decoration: underline 1.5px solid #6794b3
 }
 
 .searchone input {
@@ -165,6 +170,7 @@ h4 {
 .sectwo p {
     max-width: 70ch;
     margin: 0 auto;
+    text-shadow: .5px black;
 }
 
 h2 {
@@ -441,8 +447,8 @@ footer {
   then tell it what to do, like font size, color, whatever. 
   Add it to top buttons too, especially menu and order now.
   have an orange hover effect on top buttons, border on order now as a call to action rather than
-  a hover effect but the border can change colors. Social media will need hover effects too.
-  /* Add hover to images. Transform tells it to grow a little bit. Make telephone a little bigger.
+  a hover effect but the border can change colors. Social media will need hover effects too. DONE
+  /* Add hover to images. Transform tells it to grow a little bit. Make telephone a little bigger. TELEPHONE WAS MADE BIGGER
   Can add tombstone lighting effects, like shadow on the bottom section which could also look nice
   in other sections. Can add a slider to the reviews, and add another goth person, maybe the Asian
   girl later on.*/ 
