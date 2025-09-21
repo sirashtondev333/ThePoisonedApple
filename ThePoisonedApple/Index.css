@@ -49,6 +49,10 @@ header {
     font-size: 1.8rem;
 }
 
+.topbar a:hover {
+    text-decoration: underline 1.25px solid #fe9c02;
+}
+
 .searchone input {
     background-color: aliceblue;
     font-family: "Lato";
@@ -113,6 +117,11 @@ h4 {
     box-shadow: 1px 1px 1px black;
 }
 
+.orderbutton:hover {
+    color:black;
+     background-color: rgb(255, 150, 46);
+}
+
  * .socialmedia {
     color: #a55f91;
     font-family: 'Lato';
@@ -122,6 +131,15 @@ h4 {
     /* margin-left: 1rem; */
     margin-right: 1rem;
     gap: 1rem; 
+ }
+
+ .socialmedia i:hover {
+    color: #6794b3;
+ }
+
+ 
+ .socialmedia p:hover {
+    color: #6794b3;
  }
 
 
@@ -169,6 +187,11 @@ h2 {
      font-size: 1.75rem;
 }
 
+.desserts p:hover {
+    text-decoration: underline 1.25px solid #fe9c02;
+}
+
+
 .dessertpictures {
     display: flex;
     align-items: center;
@@ -185,16 +208,16 @@ h2 {
     width: 33.3%;
 }
 
-.dpone, .dptwo, .dpthree {
-    border: 2px solid;
-    border-image: linear-gradient(to right, #6fabd3, #d4adcf, #d4adcf);
-    border-image-slice: 1;
-}
-
 .dessertpictures img {
     width: 100%;
-    /* border:#d4adcf solid 2px; */
+    border: 2px solid;
+    border-image: linear-gradient(to right, #6fabd3, #d4adcf, #d4adcf);
+    border-image-slice: 1; 
 }
+
+/* .dessertpictures:hover {
+    transform: ;
+} */
 
 /* Play with placement, do not add inidivual heights and widths
 if you do, use percentages for responsiveness, not set rems. 
@@ -210,7 +233,7 @@ Technically rems are okay but pixels would be a hard no. */
 
 .phone {
     text-align: center;
-    font-size: 7rem;
+    font-size: 9rem;
     color:#6794b3;
     margin: 0;
     padding: 0;
@@ -230,6 +253,16 @@ Technically rems are okay but pixels would be a hard no. */
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.numbers:hover {    
+    color: #fe9c02;
+    text-decoration: underline 1.25px solid #fe9c02;
+}
+
+.numbersone:hover {
+    color: #fe9c02;
+    text-decoration: underline 1.25px solid #fe9c02;
 }
 
 .hourstotal {
@@ -288,14 +321,18 @@ Technically rems are okay but pixels would be a hard no. */
     text-shadow: 1.8px 1.8px 1.8px black;
 }
 
+.cateringbutton a {
+    color: #51273f;
+    text-shadow: 1px solid #101824;
+}
+
 .cateringbutton {
-       padding-top: .7rem;
+    padding-top: .7rem;
     padding-bottom: .7rem;
     padding-left: .7rem;
     padding-right: .7rem;
-    color: #fe9c02; 
-    background-color: #6fabd3;
-    border-color:rgb(255, 203, 121);
+    background-color: #d4adcf;
+    border-color:#d4adcf;
     font-family: 'Amatic SC';
     font-weight: 800;
     font-size: 2rem;
@@ -303,7 +340,16 @@ Technically rems are okay but pixels would be a hard no. */
     display: block;
     text-align: center;
     margin: 0 auto;
-    box-shadow: 1px 1px 1px rgb(255, 203, 121);
+    box-shadow: 1px #d4adcf;
+}
+
+.cateringbutton a:hover {
+    color: #fe9c02;
+}
+
+.cateringbutton:hover {
+    background-color: #5e2c49;
+    border: 3px solid #fe9c02;
 }
 
 .testimony {
@@ -388,9 +434,9 @@ footer {
 
   /* ASHTON. LOOK AT THIS.
   Add text shadow to your catering text. Look at the way you rounded the edges
-  and added padding, go for default size for the second button. Consider making a class my guy.
-  Consider a gradient border for your photos, look at how the blue looks.
-  Use a div he says.
+  and added padding, go for default size for the second button. Consider making a class my guy. DONE
+  Consider a gradient border for your photos, look at how the blue looks. DONE
+  Use a div he says. DONE
   Add hover effects to the selection. Vish says it takes 2 minutes. target class, do :hover and
   then tell it what to do, like font size, color, whatever. 
   Add it to top buttons too, especially menu and order now.
