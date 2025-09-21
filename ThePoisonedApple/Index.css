@@ -91,7 +91,7 @@ h4 {
     font-family: 'Amatic SC';
     font-size: 3.2rem;
     text-align: center;
-    text-shadow: 1.25px 1.25px 5px white;
+    text-shadow: 1.5px 1.5px 5px white;
     margin-bottom: 4rem;
 } 
 
@@ -110,6 +110,7 @@ h4 {
     display: block;
     text-align: center;
     margin: 0 auto;
+    box-shadow: 1px 1px 1px black;
 }
 
  * .socialmedia {
@@ -184,9 +185,15 @@ h2 {
     width: 33.3%;
 }
 
+.dpone, .dptwo, .dpthree {
+    border: 2px solid;
+    border-image: linear-gradient(to right, #6fabd3, #d4adcf, #d4adcf);
+    border-image-slice: 1;
+}
+
 .dessertpictures img {
     width: 100%;
-    border:#d4adcf solid 2px;
+    /* border:#d4adcf solid 2px; */
 }
 
 /* Play with placement, do not add inidivual heights and widths
@@ -272,8 +279,33 @@ Technically rems are okay but pixels would be a hard no. */
     padding: 6rem 0;
     text-align: center;
 }
-    
-/* Vish says light with a text shadow would look good for catering section text you still need to finish. */
+
+.cateringsec p {
+    color:#6fabd3;
+    font-family: 'Amatic SC';
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 1.8px 1.8px 1.8px black;
+}
+
+.cateringbutton {
+       padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    color: #fe9c02; 
+    background-color: #6fabd3;
+    border-color:rgb(255, 203, 121);
+    font-family: 'Amatic SC';
+    font-weight: 800;
+    font-size: 2rem;
+    border-radius: 10%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px rgb(255, 203, 121);
+}
+
 .testimony {
     color:#6794b3;
     font-size: 3rem;
@@ -336,7 +368,6 @@ Technically rems are okay but pixels would be a hard no. */
     text-shadow: 1.25px 1.25px black;
     font-size: 1.5rem;
     font-weight: 600;
-
     color:#6fabd3
 }
 
@@ -351,13 +382,11 @@ footer {
     text-align: center;
 }
 
-/* Potentially use this for numbers: overflow-wrap: break-word */
   /* Border takes up space, outline doesn't. Outline is just on top of stuff, Vish encourages you to use it during layout. 
   Says it's like they're in the same space but different reality. Same syntax as a border too. */
 
 
   /* ASHTON. LOOK AT THIS.
-  Add a box shadow to your first button, and then to your next one.
   Add text shadow to your catering text. Look at the way you rounded the edges
   and added padding, go for default size for the second button. Consider making a class my guy.
   Consider a gradient border for your photos, look at how the blue looks.
@@ -369,4 +398,5 @@ footer {
   a hover effect but the border can change colors. Social media will need hover effects too.
   /* Add hover to images. Transform tells it to grow a little bit. Make telephone a little bigger.
   Can add tombstone lighting effects, like shadow on the bottom section which could also look nice
-  in other sections. */ 
+  in other sections. Can add a slider to the reviews, and add another goth person, maybe the Asian
+  girl later on.*/ 
