@@ -220,10 +220,13 @@ h2 {
     border-image: linear-gradient(to right, #6fabd3, #d4adcf, #d4adcf);
     border-image-slice: 1; 
 }
+.ripcookies {
+    height: 15rem;
+}
 
-/* .dessertpictures:hover {
-    transform: ;
-} */
+.macaron {
+    height: 12rem;
+}
 
 /* Play with placement, do not add inidivual heights and widths
 if you do, use percentages for responsiveness, not set rems. 
