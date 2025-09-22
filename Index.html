@@ -6,12 +6,11 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" type="text/css" href="Index.css">
+            <link rel="stylesheet" type="text/css" href="./Index.css">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400..700&family=Diphylleia&family=Gowun+Batang&family=Grandiflora+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Meddon&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light+Two&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-
-<script src="https://kit.fontawesome.com/144e7dcd42.js" crossorigin="anonymous"></script>
+            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400..700&family=Diphylleia&family=Gowun+Batang&family=Grandiflora+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Meddon&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light+Two&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/144e7dcd42.js" crossorigin="anonymous"></script>
            
             <title>The Poisoned Apple</title>
     </head>
@@ -22,12 +21,12 @@
               <a href="#">Home</a>
               <a href="#">About Us</a>
               <a href="#">Menu</a>
-              <a class="order" href="#">Order Now</a>
+              <a id="order" href="#">Order Now</a>
               <a href="#">Blog</a>
               <a href="#">Location</a>
             </nav>
             <div class="searchone">
-              <input type="text" placeholder="Search">
+              <input type="text" placeholder= "&#x1F52E; Search">
             </div>
              <div class="socialmedia">
                   <p>252K <i class="fa-brands fa-facebook"></i></p>
@@ -35,92 +34,124 @@
                   <p>55K <i class="fa-brands fa-instagram"></i></p>
                 </div>
           </header>
-            <!-- Need some kind of banner here. Probably like a spooky halloween apple logo and some
-            sort of spooky baked good, or maybe a cute coffee picture if the background is just right,
-            couldn't use a brown. -->
-            <h1> Welcome to <br> The Poisoned Apple </br> </h1>
-            <h4> Where it's Halloween 365 days a year </h4>
-              <!-- INSERT A SPOOKY ICON ABOVE OR MAKE THAT FONT CHARMING 
-             May not center, keeping it this way for now until I see other reference images.
-            Considering making it half centered, using percentages so it lines up with the search bar. -->
-  <!-- Shopping Cart
-  Magnifying Glass -->
+            <div class="beginning">
+              <h1> Welcome to <br> The Poisoned Apple </br> </h1>
+              <h4> Where it's Halloween 365 days a year </h4>
+              <div class="button">
+                <button class="orderbutton">Order Online</button>
+              </div>
+            </div>
                   <!-- ALT + CLICK TO EFFECT MULTIPLE ELEMENTS -->
-          
+          <div class="space">
+            <!-- Use this to create the necessary space until you can get Vish to look at it. Also 
+             give crystal ball one more try maybe??? -->
+          </div>
+
           <section class="sectwo"> 
-          <!-- <span>About Us</span> -->
           <h2>Our Story</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <select name="Our Menu" class="menu">
-            <!-- Align these aesthetically to flatter the story, don't get attached to having them here. -->
+          <p>     As a child Onyx Macguire dreamt of a place where they could combine the two things they loved the most: darkness and sweets. 
+                  As they grew up this dream never died, and they spent their formative years experimenting in the kitchen, making morbid and 
+                  delicious desserts with their twin sisters. Upon graduating high school they attended Auguste Escoffier School of 
+                  Culinary Arts in Boulder, Colorado getting their Bachelor's in Baking and Pastry Arts. In 2010 The Poisoned Apple opened in 
+                  downtown Ash Hollow and has been a go to destination for both dessert connesseur and the darkly inclined ever since.</p>
+         <!-- <select name="Our Menu" class="menu">
           <option value ="one">Daily Menu</option>
           <option value="two">Catering Menu</option>
+          Will most likely get rid of.-->
           </select>
           </section>
           
           <section class="secthree">
-            <h3 class="orderonline">Order Online Now!</h3>
             <h2>Our Sweet and Spooky Selection</h2> 
-            <!-- consider adding a ghost icon next to the above.-->
-            <p class="desserts">Cake</p>
-            <p class="desserts">Cookies</p>
-            <p class="desserts">Pie</p>
-            <p class="desserts">Pastries</p> 
-            <p class="desserts">Macarons</p> 
-            <p class="desserts">Bread</p>
-            <p class="desserts">Other</p>
-            <p class="desserts">Coffee</p>
-            <p class="desserts">Tea</p>
-            <p class="desserts" class="catering">Catering</p>
+            <!-- <h3 class="orderonlinenow">Order Online Now!</h3>
+             Will most likely get rid of. -->
+            <div class="desserts">
+              <p>Cake</p>
+              <p>Cookies</p>
+              <p>Pie</p>
+              <p>Pastries</p> 
+              <p>Macarons</p> 
+              <p>Bread</p>
+              <p>Other</p>
+              <p>Coffee</p>
+              <p>Tea</p>
+              <p class="catering">Catering</p>
+            </div>
             <div class="dessertpictures">
-              <img src="/Images/facepie.jpg" alt="">
-              <img src="/Images/tombstonecookie" alt="">
-              <img src="/Images/bread3" alt="">
-              <img src="/Images/croissant.jpg" alt="">
-              <img src="/Images/cupcakes.jpg">
-              <img src="/Images/apples.jpg">
-              <img src="/Images/fingercookies.jpg">
+              <div class="dpone">
+                <img class="cupcakes" src="/Images/bloodycake.jpg">
+                <img class="bread" src="/Images/bread3.jpg">
+                <img class="apples" src="/Images/apples.jpg">
+              </div>
+              <div class="dptwo">
+                <img class="ripcookies" src="/Images/tombstonecookie.jpg">
+                <img class="fingers" src="/Images/fingercookies.jpg">
+                <img class="croissant" src="/Images/croissant.jpg">
+                <img class="pie" src="/Images/facepie.jpg">
+                <img class="cheesecake" src="/Images/cheesecake.jpg">
+              </div>
+              <div class="dpthree">
+                <img class="macaron" src="/Images/macaroon.jpg">
+                <img class="ghostlatte" src="/Images/ghostlatte.jpg">
+                <img class="latte" src="/Images/latte.jpg">
+                <img class="smore" src="/Images/smore.jpg">
+              </div>
+              <!-- Can use web latte, cheesecake, jack latte, ghost cookies, or even donuts, macarons
+              teddy bear cookie, bloody cake, and haunted house cookies for backup. -->
             </div>
           </section>
 
           <section class="secfour">
               <div class="secfourstart">
-                <p class="orderonline">We Cater!</p> 
                 <!-- Figure out why the above is sitting on the far right rather than centered like the one in section three despite sharing the same class.-->
                 <h2>Opening Hours</h2>
                 <p class="phone"> &#9990; </p>
-                  <p>Call Now</p>
+                <div class="hours">
+                  <p class="callnow">Call Now</p>
                   <p class="numbers">+1 234 567 8910</p>
-              </div>
+                </div>
 
-            <p>Sunday to Thursday</p>
-            <p class="numbers">5:00-12:00</p>
-            <p>Friday and Saturday</span>
-            <p class="numbers">3:00-02:00</p>
-              </section>
-          <section class="cateringsec">
-            <p> We Offer Catering! </p>
-            <img src="Images/ouijacake.jpg">
+                <div class="hourstotal">
+                  <div class="weekdays">
+                    <p>Monday to Friday</p>
+                    <p class="numbersone">7:00am-8:00pm</p>
+                  </div>
+
+                  <div class="weekend">
+                    <p>Saturday and Sunday</p>
+                    <p class="numbersone">8:00am-9:00pm</p>
+                  </div>
+                </div>
+              </div>
           </section>
+
+          <section class="cateringsec">
+            <h2 class="orderonline">We Offer Catering!</h2> 
+            <p> See Our Catering Menu </p>
+            <button class="cateringbutton"> <a>Click Here</a>
+          </section>
+              
               <section class="end">
-                <img class="cookieone" src="/Images/tsi-n8RpJffFXZc-unsplash.jpg">
-                <!-- very cute but not ornate enough to decorate here. Either pair with another picture or use on the side as decor. 
-                 Considered adding to top with poison apple but it's not on theme enough. -->
-                <span class="testimony"> Testimonies </span>
-                <h3 class="customersay">Customer Say...</h2>
+                <h3 class="testimony"> Testimonies </span>
+                <h3 class="customersay">Customers Say...</h2>
+                  <div class="imagecrop">
                 <img src="/Images/whitegirl.jpg" class="whitegirl">
+                  </div>
                 <span class="portrait"> Harley Hawthorne </span>
                 <span class="portrait"> Social Media Influencer </span>
                 <span class="portrait" class="stars"> &#11088; &#11088; &#11088; &#11088; &#11088;</span>
-                <!-- <i class="fa-sharp fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-sharp fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-sharp fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-sharp fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-sharp fa-solid fa-star" style="color: #FFD43B;"></i>
-                <i class="fa-light fa-ellipsis"></i> -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus porta nulla. Suspendisse vitae auctor elit. Praesent ut pulvinar lorem. Nam eget fermentum felis, iaculis elementum elit. Praesent eget dolor eu urna dictum volutpat at non elit. Proin viverra malesuada mi. Praesent malesuada lectus ut turpis egestas malesuada. Vivamus pulvinar sagittis leo ac pulvinar. Aenean porttitor, tellus eget vulputate lacinia, mauris ex malesuada leo, eu mattis ante neque a diam. In vel semper velit. Pellentesque in mollis est. Mauris in erat porttitor, commodo dolor et, ultrices augue. Nullam vitae tempor ante. Fusce auctor lorem magna, vitae egestas leo euismod volutpat.</p>
+                <p>"The Poisoned Apple is one of my favorite places to eat, especially after my weekly seances.
+                    They have a great variety of drinks and snacks; the german chocolate bat cupcakes, zombie drool pie, and mummy finger cookies are my favorite. 
+                    They offer immaculate customer service: everytime they've catered for my annual Samhain party
+                    they've gone above and beyond with giving progress updates and even providing a coupon code for the next
+                    time I come in. Oh, and the music and atmosphere are on point: I'll never forget Siouxsie and the Banshees was playing the first time
+                    I walked in. I cannot recommend them enough." </p>
               </section>
-              
-              <span>2020 © Cuisine Restaurant | Design by Mithun Ray</span>
-              <a href="https://www.flaticon.com/free-icons/crystal-ball" title="crystal ball icons">Crystal ball icons created by Superarticons - Flaticon</a>
-            </div>
+              <footer>
+                <p>2025 © The Poisoned Apple | Design by Ashton H.</p> 
+              </footer>
             </body>
-
-
   </html>
+
+
+ 
