@@ -45,6 +45,9 @@
     <!-- Spinner End -->
 
 
+    <!-- Sticky Header Start (wraps Topbar + Navbar so they scroll as one clean unit) -->
+    <header class="site-header bg-dark">
+
     <!-- Topbar Start -->
     <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="row gx-0 align-items-center d-none d-lg-flex">
@@ -71,7 +74,7 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
             <h1 class="text-primary m-0">The Poisoned Apple Bakehouse</h1>
         </a>
@@ -106,6 +109,9 @@
         </div>
     </nav>
     <!-- Navbar End -->
+
+    </header>
+    <!-- Sticky Header End -->
 
 
     <!-- Carousel Start -->
@@ -151,7 +157,7 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="fact-item apple rounded text-center h-100 p-5">
+                    <div class="fact-item apple rounded border border-2 border-primary text-center h-100 p-5">
                         <i class="fa fa-certificate fa-4x text-primary mb-4" id="icon"></i>
                         <!-- Note for later applesauce: tried placing change of color at bottom of cascade and even made it an ID instead of a class.
                          Look for what is making it orange later and experiment with making it !important? I feel like I'm forgetting one more idea... -->
@@ -160,21 +166,21 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="fact-item apple rounded text-center h-100 p-5">
+                    <div class="fact-item apple rounded border border-2 border-primary text-center h-100 p-5">
                         <i class="fa fa-users fa-4x text-primary mb-4 icon"></i>
                         <p class="mb-2">5 Star Reviews on Yelp, Postmates, and Grubhub</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">90</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="fact-item apple rounded text-center h-100 p-5">
+                    <div class="fact-item apple rounded border border-2 border-primary text-center h-100 p-5">
                         <i class="fa fa-bread-slice fa-4x text-primary mb-4 icon"></i>
                         <p class="mb-2">Total Baked Goods Sold</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">199,635</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="fact-item apple rounded text-center h-100 p-5">
+                    <div class="fact-item apple rounded border border-2 border-primary text-center h-100 p-5">
                         <i class="fa fa-cart-plus fa-4x text-primary mb-4 icon"></i>
                         <p class="mb-2"> Home Delivery Orders Made This Week</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">78</h1>
@@ -268,14 +274,16 @@ Apple opened in 2010 and has been a must-go destination for dessert enthusiast a
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="product-item d-flex flex-column .white rounded overflow-hidden h-100">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4 divword">
                             <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">$3 - $45</div>
-                            <h4 class="mb-3">Our Limited Edition Offerings</h3>
+                            <h4 class="mb-3">Our Limited Edition Offerings</h4>
                             <span>Only available for the month of May</span>
                         </div>
-                        <div class="position-relative mt-auto divword">
-                            <img class="img-fluid smore" src="/Images/smore.jpg" alt="">
+                        <div class="position-relative mt-auto p-3">
+                            <div class="polaroid-frame polaroid-tilt-1">
+                                <img class="img-fluid" src="/Images/smore.jpg" alt="">
+                            </div>
                             <div class="product-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
                             </div>
@@ -286,11 +294,13 @@ Apple opened in 2010 and has been a must-go destination for dessert enthusiast a
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4">
                             <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3 divword">$8 - $35</div>
-                            <h4 class="mb-3">Breads</h3>
+                            <h4 class="mb-3">Breads</h4>
                             <span>From Bagels To Whole Wheat, We Have It All</span>
                         </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="/Images/skullbread.jpg" alt="">
+                        <div class="position-relative mt-auto p-3">
+                            <div class="polaroid-frame polaroid-tilt-2">
+                                <img class="img-fluid" src="/Images/skullbread.jpg" alt="">
+                            </div>
                             <div class="product-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
                             </div>
@@ -304,9 +314,13 @@ Apple opened in 2010 and has been a must-go destination for dessert enthusiast a
                             <h4 class="mb-3">Sweets</h4>
                             <span>Customer Favorites include Everything but the Bag Halloween Candy Cookies, Cherry Slime Pie, Spooky S'mores and More...</span>
                         </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid ghostlatte" class="gap-1" src="/Images/ghostlatte.jpg">
-                            <img class="img-fluid" src="/Images/vecteezy_gothic-themed-chocolate-cake-squares-with-spooky-halloween_70452650.jpg" alt="">
+                        <div class="position-relative mt-auto p-3">
+                            <div class="polaroid-frame polaroid-tilt-3 mb-4">
+                                <img class="img-fluid" src="/Images/ghostlatte.jpg" alt="">
+                            </div>
+                            <div class="polaroid-frame polaroid-tilt-4">
+                                <img class="img-fluid" src="/Images/vecteezy_gothic-themed-chocolate-cake-squares-with-spooky-halloween_70452650.jpg" alt="">
+                            </div>
                             <div class="product-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
                             </div>
@@ -476,22 +490,14 @@ Apple opened in 2010 and has been a must-go destination for dessert enthusiast a
                  orange. Consider making the arrow or arrow replacements orange instead. -->
                 </div>
             </div>
-            <div class="bg-image d-flex text-light rounded-top p-5 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s" class="newsletter"
-            style="background-image: url(/Images/graveyardcookie.jpg); background-repeat:no-repeat; background-size: cover; 
+            <div class="bg-image d-flex flex-column align-items-center justify-content-center text-light text-center rounded p-5 my-6 mb-0 wow fadeInUp newsletter" data-wow-delay="0.1s"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/Images/graveyardcookie.jpg); background-repeat:no-repeat; background-size: cover; 
             visibility: visible; background-position: center; text-shadow: 3px 3px rgb(53, 53, 53);"
             background-repeat: no repeat>
-            <!-- Things to come back to applesauce: want to extend the image lower, and then have the email sign up below it and centered -->
-                <div class="row align-items-center">
-                    <!-- <div class="col-md-6"> -->
-                        <h1 class="display-4 d-flex text-light mb-0 text-center text-wrap">Subscribe to our newsletter and get 15% off any cookie or brownie!</h1>
-                    <!-- </div> -->
-                    <div class="md-6 text-md-end"> 
-            <!-- placeholder for original spot email was, applesauce. -->
-                    </div>
-                </div>
-                <div class="position-relative"> 
-                        <input class="form-control bg-white border-light w-100 py-3 ps-4 pe-5 copyright justify-content-start" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-dark py-2 px-3 position-absolute top-0 end-0 mt-2 me-2 copyright" class="orangebutton">Sign Up</button>
+                <h1 class="display-4 text-light mb-0 text-wrap">Subscribe to our newsletter and get 15% off any cookie or brownie!</h1>
+                <div class="position-relative newsletter-form">
+                        <input class="form-control bg-white border-light py-3 ps-4 pe-5 copyright justify-content-start" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-dark py-2 px-3 position-absolute top-0 end-0 mt-2 me-2 copyright orangebutton">Sign Up</button>
                 </div>
             </div>
         </div>
@@ -504,7 +510,7 @@ Apple opened in 2010 and has been a must-go destination for dessert enthusiast a
     <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6 footerside justify-content-start">
+                <div class="col-lg-4 col-md-6 footerside justify-content-start">
                     <h4 class="text-light mb-4">The Poisoned Apple Bakery</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>2270 N Bellflower Blvd Long Beach, CA 90815</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(562) 493-5411</p>
@@ -524,7 +530,7 @@ Apple opened in 2010 and has been a must-go destination for dessert enthusiast a
                     <a class="btn btn-link copyright brown" href="">Terms & Condition</a>
                     <a class="btn btn-link copyright support" href="">Support</a>
                 </div>
-                <div class="col-lg-4 col-md-7">
+                <div class="col-lg-5 col-md-7">
                     <h2 class="text-light">Hours of Operation</h2>
                         <p class="d-flex">6am - 12am</p>
                         <p class="d-flex">Seven Days a Week</p>
@@ -593,6 +599,23 @@ Apple opened in 2010 and has been a must-go destination for dessert enthusiast a
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Sticky header behavior: collapses the top info bar once you scroll -->
+    <script>
+        (function () {
+            var header = document.querySelector('.site-header');
+            if (!header) return;
+            function onScroll() {
+                if (window.scrollY > 40) {
+                    header.classList.add('is-scrolled');
+                } else {
+                    header.classList.remove('is-scrolled');
+                }
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+        })();
+    </script>
 </body>
 
 </html>
