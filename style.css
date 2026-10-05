@@ -136,6 +136,20 @@
     padding-left: 0;
 }
 
+/* Footer breathing room: wider box on large screens, and padding inside it
+   so the text isn't pressed against the edges. */
+.footer-inner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@media (min-width: 992px) {
+    .footer-wide {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+}
+
     h1 {
         font-family: "moonflower";
     }
