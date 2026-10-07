@@ -132,8 +132,10 @@
     margin-bottom: 10rem;
 }
 
-.footerside {
-    padding-left: 0;
+@media (min-width: 992px) {
+    .footerside {
+        padding-left: 0;
+    }
 }
 
 /* Footer breathing room: wider box on large screens, and padding inside it
@@ -380,7 +382,7 @@
 
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/Images/cake.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/Images/cake-web.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -651,4 +653,44 @@
 
 .site-header.is-scrolled .navbar {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+/*** Small-screen tuning (phones and tablets) ***/
+@media (max-width: 991.98px) {
+    /* Orange phone box: less padding so the number fits on one line */
+    .phonesection {
+        padding: 2rem 1.25rem 2.5rem !important;
+    }
+    .phonecontainer {
+        margin-bottom: 4rem;
+    }
+    .phonesection .fa-4x {
+        font-size: 2.6rem;
+    }
+    .phonesection .ms-4 {
+        margin-left: 1rem !important;
+    }
+    .phonesection .fs-1 {
+        font-size: 1.7rem !important;
+        white-space: nowrap;
+    }
+
+    /* Services page: keep the wedding cake framed by the orange box */
+    .service-cake {
+        min-height: 0 !important;
+        padding: 2rem 0;
+    }
+    .service-cake .cake-crop {
+        width: min(22rem, 72%) !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .phonesection .fs-1 {
+        font-size: 1.5rem !important;
+    }
+    .footer-inner {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
