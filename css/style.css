@@ -9,47 +9,42 @@
 
     @font-face {
     font-family: "moonflower";
-    src: url(/Fonts/Moon\ Flower.ttf);
+    src: url(../Fonts/Moon\ Flower.ttf);
     }
 
     @font-face {
         font-family: "moonflowerbold";
-        src: url(/Fonts/Moon\ Flower\ Bold.ttf);
-    }
-
-    @font-face {
-        font-family: "strangelove";
-        src: url(/Fonts/StrangeluvCompressed-DO7ZR.ttf);
+        src: url(../Fonts/Moon\ Flower\ Bold.ttf);
     }
 
     @font-face {
         font-family: "vampirebite";
-        src: url(/Fonts/Vampire\ Bite\ Solid.ttf);
+        src: url(../Fonts/Vampire\ Bite\ Solid.ttf);
     }
 
     @font-face {
         font-family: "opensans";
-        src: url(/Fonts/OpenSans-Regular.ttf);
+        src: url(../Fonts/OpenSans-Regular.ttf);
     }
 
     @font-face {
         font-family: "metropolis";
-        src: url(/Fonts/Metropolis-Medium.otf);
+        src: url(../Fonts/Metropolis-Medium.otf);
     }
 
     @font-face {
         font-family: "keepcalm";
-        src: url(/Fonts/KeepCalm-Medium.ttf);
+        src: url(../Fonts/KeepCalm-Medium.ttf);
     }
 
     @font-face {
         font-family: "lora";
-        src: url(/Fonts/Lora-VariableFont_wght.ttf);
+        src: url(../Fonts/Lora-VariableFont_wght.ttf);
     }
 
     @font-face {
         font-family: "josefinsans";
-        src: url(/Fonts/JosefinSans-VariableFont_wght.ttf)
+        src: url(../Fonts/JosefinSans-VariableFont_wght.ttf)
     }
 
     body, .black {
@@ -382,7 +377,7 @@
 
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/Images/cake-web.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Images/cake-web.jpg) center center no-repeat;
     background-size: cover;
 }
 
